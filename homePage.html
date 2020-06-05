@@ -13,22 +13,22 @@
 
     <body>
         <!-- PIZZA MAKING NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <a class="navbar-brand" href="#">Pizza Making</a>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="homePage.html">Pizza Making</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <!-- <li class="nav-item active">
                   <a class="nav-link" href="homePage.html">Home <span class="sr-only">(current)</span></a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                   <a class="nav-link" href="https://www.pizzamaking.com/forum/index.php">Forum</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Recipes</a>
+                    <a class="nav-link" href="recipes.html">Recipes</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.pizzamaking.com/glossary.html">Glossary</a>
@@ -43,14 +43,15 @@
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Cook Books</a>
                     <a class="dropdown-item" href="#">Dough Tools</a>
-                    <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                    <!-- <a class="dropdown-item" href="recipes.html">Recipes</a>
+                    <a class="dropdown-item" href="https://www.pizzamaking.com/glossary.html">Glossary</a> -->
                   </div>
                 </li>
               </ul>
-              <form class="form-inline my-2 my-lg-0">
+              <!-- <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
+              </form> -->
             </div>
         </nav>
 
@@ -60,6 +61,10 @@
                 <h1 class="display-4">PIZZA!</h1>
                 <p class="lead">Welcome to the Home for Pizza Lovers and Pizza Makers!</p>
                 <a class="btn btn-primary btn-lg" href="https://www.pizzamaking.com/forum/index.php" role="button" data-toggle="tooltip" data-placement="top" title="Learn how to make pizza here!">Enter Forum</a>
+                <div class="container btnContainer">
+                    <button type="button" class="btn btn-info">Recipes</button>
+                    <button type="button" class="btn btn-info">Glossary</button>
+                </div>
                 <hr class="my-4">
                 <p>PizzaMaking.com is more than just pizza recipes, it's a place where pizza aficionados can meet and share their passion for making (and eating) the world's greatest food… Pizza!</p>
             </div>

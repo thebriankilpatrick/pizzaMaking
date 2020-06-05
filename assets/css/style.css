@@ -8,6 +8,10 @@ html, body {
     font-family: Ubuntu;
 }
 
+.btnContainer {
+    margin-top: 15px;
+}
+
 #aboutContainer {
     width: 75%;
 }
@@ -19,4 +23,20 @@ html, body {
 
 .aboutText {
     text-align: justify;
+}
+
+#recipesContainer {
+    margin-top: 60px;
+}
+
+.recipeCard {
+    margin-bottom: 15px;
+}
+
+.recipeTitle {
+    color: black;
+}
+
+.recipeTitle:hover {
+    text-decoration: none;
 }
