@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0
+}
+
+#homePageJumbotron {
+    margin-top: 30px;
+    font-family: Ubuntu;
+}
+
+#aboutContainer {
+    width: 75%;
+}
+
+#aboutJumbotron {
+    margin-top: 30px;
+    font-family: Ubuntu;
+}
+
+.aboutText {
+    text-align: justify;
+}

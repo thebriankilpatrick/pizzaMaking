@@ -10,7 +10,6 @@
           href="https://fonts.googleapis.com/css?family=Ubuntu"/>
         <link rel="stylesheet" href="assets/css/style.css"/>
     </head>
-
     <body>
         <!-- PIZZA MAKING NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -21,8 +20,8 @@
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="homePage.html">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="homePage.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="https://www.pizzamaking.com/forum/index.php">Forum</a>
@@ -33,8 +32,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.pizzamaking.com/glossary.html">Glossary</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
                   </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -54,24 +53,38 @@
             </div>
         </nav>
 
-        <!-- PIZZA MAKING HOME PAGE JUMBOTRON -->
-        <div class="container">
-            <div class="jumbotron text-center" id="homePageJumbotron">
-                <h1 class="display-4">PIZZA!</h1>
-                <p class="lead">Welcome to the Home for Pizza Lovers and Pizza Makers!</p>
-                <a class="btn btn-primary btn-lg" href="https://www.pizzamaking.com/forum/index.php" role="button" data-toggle="tooltip" data-placement="top" title="Learn how to make pizza here!">Enter Forum</a>
+        <div class="container" id="aboutContainer">
+            <div class="jumbotron" id="aboutJumbotron">
+                <h1 class="display-4">About Us</h1>
+                <!-- <p class="lead">Welcome to the Home for Pizza Lovers and Pizza Makers!</p> -->
                 <hr class="my-4">
-                <p>PizzaMaking.com is more than just pizza recipes, it's a place where pizza aficionados can meet and share their passion for making (and eating) the world's greatest food… Pizza!</p>
+                <p class="aboutText">We're all about pizza. Period.</p>
+                <p class="aboutText">
+                    Our sole purpose is to provide a medium in which people everywhere can interact and share their interest in making (and eating) pizza.
+                </p>
+
+                <p class="aboutText">
+                    Everyone is welcome here. Whether you are a master pizzaiolo or an aspiring amateur, this website aims to satisfy the hunger to learn the fine art of pizza making and the science behind it. It is a place where teachers teach and teachers learn, a place were everyone is a student striving to make the best pizza possible.
+                </p>
+
+                <p class="aboutText">
+                    This website is free to all. There are no membership fees, dues, or payments required to access our content. We are not a business and do not sell any goods or services. Our operating expenses are paid entirely by our own personal funds, member donations, and limited sponsored advertising. Think of us as "National Public Pizza."
+                </p>
+
+                <p class="aboutText">
+                    If you have any questions or comments, please feel free to contact us as webmaster@pizzamaking.com
+                </p>
+
+                <p class="aboutText">Thank you!</p>
             </div>
         </div>
 
         <!-- PIZZA MAKING NAVBAR -->
-        <nav class="navbar fixed-bottom navbar-light bg-light">
+        <nav class="navbar navbar-light bg-light">
             <span class="navbar-text">
                 Copyright © 2019 ZinskiNet, LLC. All Rights Reserved.
             </span>
         </nav>
 
-        <script src="assets/js/script.js"></script>
     </body>
 </html>
