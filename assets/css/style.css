@@ -40,3 +40,33 @@ html, body {
 .recipeTitle:hover {
     text-decoration: none;
 }
+
+.borderHover:hover {
+    position: relative;
+}
+
+/* Custom hover effect for cards */
+.borderHover:hover::before {
+    border-radius: 5px;
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #4aaaa5;
+    z-index: -1;
+}
+
+.borderHover:hover::after {
+    border-radius: 5px;
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #4aaaa5;
+    z-index: -2;
+    filter: blur(15px);
+}
