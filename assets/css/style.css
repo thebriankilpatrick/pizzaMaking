@@ -38,8 +38,23 @@ li {
     text-align: justify;
 }
 
+/* Recipe cards from recipes.html */
 #recipesContainer {
     margin-top: 60px;
+}
+
+.card {
+    font-family: Ubuntu;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.recipeTitle:hover {
+    /* Color is supbject to change!! */
+    color: #4aaaa5 !important;
+    transition: .5s !important;
 }
 
 .recipeCard {
