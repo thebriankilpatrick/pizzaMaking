@@ -3,6 +3,14 @@ html, body {
     margin: 0
 }
 
+p {
+    text-align: justify;
+}
+
+li {
+    text-align: justify;
+}
+
 #homePageJumbotron {
     margin-top: 30px;
     font-family: Ubuntu;
@@ -10,6 +18,11 @@ html, body {
 
 .btnContainer {
     margin-top: 15px;
+}
+
+.btn:hover {
+    letter-spacing: 2px;
+    transition: .5s;
 }
 
 #aboutContainer {
