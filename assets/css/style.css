@@ -3,6 +3,30 @@ html, body {
     margin: 0
 }
 
+body {
+    background-image: url(../images/vintage-concrete.png);
+    height: 100%; 
+    /* background-position: center; */
+    background-repeat: initial;
+    /* background-size: cover; */
+    opacity: .7;
+}
+
+.homePageBody {
+    background-image: url(../images/pizzaBackground.jpg);
+    height: 100%; 
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .87;
+}
+
+.footer {
+    background-color: rgb(202, 201, 201) !important;
+    opacity: .8;
+    color: black !important;
+}
+
 p {
     text-align: justify;
 }
