@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background-image: url(../images/vintage-concrete.png);
+    background-image: url(../images/backgroundImg.jpg);
     height: 100%; 
     /* background-position: center; */
     background-repeat: initial;
@@ -25,6 +25,10 @@ body {
     background-color: rgb(202, 201, 201) !important;
     opacity: .8;
     color: black !important;
+}
+
+.recipe-footer {
+    margin-top: 20px;
 }
 
 p {
