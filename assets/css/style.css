@@ -39,6 +39,10 @@ li {
     text-align: justify;
 }
 
+.navbar-brand {
+    font-family: Ubuntu;
+}
+
 #homePageJumbotron {
     margin-top: 30px;
     font-family: Ubuntu;
@@ -126,3 +130,9 @@ li {
     z-index: -2;
     filter: blur(15px);
 }
+
+@media only screen and (max-width: 500px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+  }
